@@ -224,6 +224,30 @@ input {
     /*Fordele*/
 /*Mine point slut*/
 
+/*Mine køb start*/
+    /*Måned start*/
+        .maned {
+            width: 310px;
+            height: 40px;
+            background-color: #D9E1E2;
+            border-radius: 8px;
+            box-shadow: 0px 1px 6px rgba(0,0,0,0.16);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    /*Måned slut*/
+
+    /*Kvitteringer start*/
+        .kvittering {
+            width: 310px;
+            height: 60px;
+            background-color: #FFFFFF;
+            border-radius: 8px;
+            box-shadow: 0px 1px 6px rgba(0,0,0,0.16);
+        }
+    /*Kvitteringer slut*/
+/*Mine køb slut*/
 
 
 
