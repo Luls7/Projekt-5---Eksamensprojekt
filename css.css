@@ -152,7 +152,6 @@ input {
             border: solid; /*Border fjernes når færdig*/
         }
     /*Anbefalet slut*/
-
 /*Home slut*/
 
 /*Profil start*/
@@ -179,9 +178,51 @@ input {
         align-items: center;
     }
     /*Knapper slut*/
-
 /*Profil slut*/
 
+/*Mine point start*/
+    /*Fordele*/
+        .nestefordele {
+            display: flex;
+            flex-wrap: wrap;
+            row-gap: 10px;
+            column-gap: 10px;
+            justify-content: center;
+        }
+
+        .fordele {
+            height: 110px;
+            width: 140px;
+            border-radius: 8px;
+            box-shadow: 0px 1px 6px rgba(0,0,0,0.16);
+        }
+
+        #fordel1 {
+            background-color: #A2BDBD;
+        }
+
+        #fordel2 {
+            background-color: #E8BBBA;
+        }
+
+        #fordel3 {
+            background-color: #ECD2CC;
+        }
+
+        #fordel4 {
+            background-color: #DBE1E2;
+        }
+
+        #fordel5 {
+            background-color: #CB9BCB;
+        }
+
+        #fordel6 {
+            background-color: #E6D6E2;
+        }
+
+    /*Fordele*/
+/*Mine point slut*/
 
 
 
