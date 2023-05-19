@@ -1,9 +1,10 @@
-let antalhjerter = 5;
+let antalhjerter = 19;
 let hjerte = Array(antalhjerter);
 for (i = 0; i<antalhjerter; i++) {
   hjerte[i] = 0;
 }
 
+console.log(hjerte);
 function changeHjerte(nr) {
     let nrid = "hjerte" + nr
     if (hjerte[nr] === 0) {
