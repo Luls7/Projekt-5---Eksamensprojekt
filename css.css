@@ -98,7 +98,7 @@ input {
     }
 
     .space {
-        height: 70px;
+        height: 40px;
     }
 /*Navigation slut*/
 
@@ -275,13 +275,7 @@ input {
 
     /*Hjerte start*/
         .hjerte {
-            height: 15px;
-            background: url(image/heartbrown.svg) no-repeat;
-        }
-
-        .hjerte:active {
-            height: 15px;
-            background: url(image/heartred.svg) no-repeat;
+            height: 20px;
         }
     /*Hjerte slut*/
 /*Mine favoritter slut*/
@@ -317,6 +311,10 @@ input {
             margin-right: -30px;
             padding-left: 30px;
             padding-right: 30px;
+        }
+
+        .pil {
+            max-height: 20px;
         }
     /*Folder slut*/
 /*Kundeservice slut*/

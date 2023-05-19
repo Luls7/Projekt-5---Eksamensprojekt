@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kundeservice</title>
     <link rel="stylesheet" href="../css.css"/>
-    <script src="../js/jasmin.js" defer></script>
+    <script src="../js/openfolder.js" defer></script>
     <script src="https://kit.fontawesome.com/d0930a56d4.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128" rel="stylesheet">
 </head>
@@ -17,13 +17,11 @@
         <div class="break"></div>
     </header>
     <div class="space"></div>
-    
 
-
-
-
-
-    <div class="kundeservicesknapper" onclick="openFolder('1')"><h1>ring til os</h1></div>
+    <div class="kundeservicesknapper" onclick="openFolder('1')">
+        <h1>ring til os</h1>
+        <img src="../image/pilhojre.svg" class="pil" id="pil" onclick="changePil()" alt="Åben og lukke pil"/>
+    </div>
     <div class="openfolder" id="1">
         <h3>
             Du er altid meget velkommen til at ringe til Kundeservice på telefon: 33 69 28 26.
@@ -35,14 +33,20 @@
         </h3>
     </div>
     
-    <div class="kundeservicesknapper" onclick="openFolder('2')"><h1>Send os en mail</h1></div>
+    <div class="kundeservicesknapper" onclick="openFolder('2')">
+        <h1>Send os en mail</h1>
+        <img src="../image/pilhojre.svg" class="pil" id="pil" onclick="changePil()" alt="Åben og lukke pil"/>
+    </div>
     <div class="openfolder" id="2">
         <h3>
             Har du spørgsmål vedrørende webshoppen, appen eller NEYE generelt, kan du sende en mail til kundeservice@neye.dk. Vi besvarer din mail hurtigst muligt.
         </h3>
     </div>
 
-    <div class="kundeservicesknapper" onclick="openFolder('3')"><h1>Chat med os</h1></div>
+    <div class="kundeservicesknapper" onclick="openFolder('3')">
+        <h1>Chat med os</h1>
+        <img src="../image/pilhojre.svg" class="pil" id="pil" onclick="changePil()" alt="Åben og lukke pil"/>
+    </div>
     <div class="openfolder" id="3">
         <h3>
             Du kan chatte med os ved at trykke på denne knap.
@@ -51,7 +55,10 @@
         <br>
     </div>
 
-    <div class="kundeservicesknapper bund" onclick="openFolder('4')"><h1>Ofte stillede spørgsmål</h1></div>
+    <div class="kundeservicesknapper bund" onclick="openFolder('4')">
+        <h1>Ofte stillede spørgsmål</h1>
+        <img src="../image/pilhojre.svg" class="pil" id="pil" onclick="changePil()" alt="Åben og lukke pil"/>
+    </div>
     <div class="openfolder" id="4">
         <h2>
             Kan jeg returnere varer købt på webshoppen i en NEYE-butik?
