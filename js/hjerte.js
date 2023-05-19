@@ -1,4 +1,4 @@
-let antalhjerter = 1;
+let antalhjerter = 5;
 let hjerte = Array(antalhjerter);
 for (i = 0; i<antalhjerter; i++) {
   hjerte[i] = 0;

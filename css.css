@@ -252,12 +252,13 @@ input {
 /*Mine favoritter start*/
     /*Produkter start*/
         .alleprodukter {
+            width: 310px;
             padding-top: 30px;
             display: flex;
             flex-wrap: wrap;
             row-gap: 20px;
             column-gap: 20px;
-            justify-content: center;
+            justify-content: flex-start;
         }
 
         .produkter {
@@ -338,10 +339,99 @@ input {
 
 /*Produktbilleder start*/
 #billede1 {
-    background-image: url("image/pilned.svg");
+    background-image: url("image/produkter/aura699kr.jpg");
     background-repeat: no-repeat;
 }
 
+#billede2 {
+    background-image: url("image/produkter/aura1599kr.jpg");
+    background-repeat: no-repeat;
+}
+
+#billede3 {
+    background-image: url("image/produkter/beckmann599kr.jpg");
+    background-repeat: no-repeat;
+}
+
+#billede4 {
+    background-image: url("image/produkter/belsac899kr.jpg");
+    background-repeat: no-repeat;
+}
+
+#billede5 {
+    background-image: url("image/produkter/dayet499kr.jpg");
+    background-repeat: no-repeat;
+}
+
+#billede6 {
+    background-image: url("image/produkter/dayet549kr.jpg");
+    background-repeat: no-repeat;
+}
+
+#billede7 {
+    background-image: url("image/produkter/delsey1799kr1.jpg");
+    background-repeat: no-repeat;
+}
+
+#billede8 {
+    background-image: url("image/produkter/delsey1799kr2.jpg");
+    background-repeat: no-repeat;
+}
+
+#billede9 {
+    background-image: url("image/produkter/fjallraven849kr.jpg");
+    background-repeat: no-repeat;
+}
+
+#billede10 {
+    background-image: url("image/produkter/haglofs800kr.jpg");
+    background-repeat: no-repeat;
+}
+
+#billede11 {
+    background-image: url("image/produkter/hera1299kr.jpg");
+    background-repeat: no-repeat;
+}
+
+#billede12 {
+    background-image: url("image/produkter/hera1399kr.jpg");
+    background-repeat: no-repeat;
+}
+
+#billede13 {
+    background-image: url("image/produkter/markberg499kr.jpg");
+    background-repeat: no-repeat;
+}
+
+#billede14 {
+    background-image: url("image/produkter/markberg1499kr.jpg");
+    background-repeat: no-repeat;
+}
+
+#billede15 {
+    background-image: url("image/produkter/rains499kr.jpg");
+    background-repeat: no-repeat;
+}
+
+#billede16 {
+    background-image: url("image/produkter/saddler2199kr.jpg");
+    background-repeat: no-repeat;
+}
+
+#billede17 {
+    background-image: url("image/produkter/thenorthface899kr.jpg");
+    background-repeat: no-repeat;
+}
+
+#billede18 {
+    background-image: url("image/produkter/tyler&co1399kr.jpg");
+    background-repeat: no-repeat;
+}
+
+#billede19 {
+    background-image: url("image/produkter/valentino1199kr.jpg");
+    background-repeat: no-repeat;
+}
 /*Produktbilleder slut*/
 
 
