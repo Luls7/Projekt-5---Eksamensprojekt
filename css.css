@@ -252,6 +252,7 @@ input {
 /*Mine favoritter start*/
     /*Produkter start*/
         .alleprodukter {
+            padding-top: 30px;
             display: flex;
             flex-wrap: wrap;
             row-gap: 20px;
@@ -276,8 +277,24 @@ input {
     /*Hjerte start*/
         .hjerte {
             height: 20px;
+            width: 20px;
+            padding: 5px;
+        }
+
+        .hjertepaaplads {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-end;
+            justify-content: flex-start;
+            flex-direction: column;
         }
     /*Hjerte slut*/
+
+    /*Tekst start*/
+    .texttiltop {
+        margin-top: 1px;
+    }
+    /*Tekst slut*/
 /*Mine favoritter slut*/
 
 /*Kundeservice start*/
@@ -319,6 +336,29 @@ input {
     /*Folder slut*/
 /*Kundeservice slut*/
 
+/*Produktbilleder start*/
+#billede1 {
+    background-image: url("image/pilned.svg");
+    background-repeat: no-repeat;
+}
+
+/*Produktbilleder slut*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -333,6 +373,7 @@ input {
 }
 
 .left {
+    display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: flex-start;
@@ -340,10 +381,11 @@ input {
 }
 
 .right {
+    display: flex;
+    flex-wrap: wrap;
     align-items: flex-end;
     justify-content: flex-end;
     flex-direction: column;
-    align-self: right;
 }
 
 .textbredde {
