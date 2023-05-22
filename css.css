@@ -150,7 +150,9 @@ nav {
 
 /*Profil start*/
     /*Billede start*/
-    
+    .billedeiprofil{
+        margin-left: -30px;
+    }
     /*Billede slut*/
 
     /*Knapper start*/
