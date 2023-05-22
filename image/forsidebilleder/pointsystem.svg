@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="324.25" height="62.5" viewBox="0 0 324.25 62.5">
+  <g id="Group_37" data-name="Group 37" transform="translate(-34 -40.5)">
+    <path id="Path_124" data-name="Path 124" d="M0,0H320" transform="translate(34.75 80.5)" fill="none" stroke="#38201e" stroke-width="1"/>
+    <line id="Line_184" data-name="Line 184" x2="57" transform="translate(34.75 80.5)" fill="none" stroke="#38201e" stroke-width="3"/>
+    <text id="_100" data-name="100" transform="translate(35.25 99)" fill="#38201e" font-size="15" font-family="Arquitecta"><tspan x="0" y="0">100</tspan></text>
+    <text id="_200" data-name="200" transform="translate(331.25 97)" fill="#38201e" font-size="15" font-family="Arquitecta"><tspan x="0" y="0">200</tspan></text>
+    <text id="Mine_point" data-name="Mine point" transform="translate(34 59)" fill="#38201e" font-size="20" font-family="ArquitectaBold, Arquitecta"><tspan x="0" y="0">MINE POINT</tspan></text>
+    <text id="_120" data-name="120" transform="translate(291.75 55.5)" fill="#38201e" font-size="20" font-family="ArquitectaBold, Arquitecta"><tspan x="0" y="0">120</tspan></text>
+    <text id="Point" transform="translate(325.75 51.5)" fill="#38201e" font-size="15" font-family="Arquitecta"><tspan x="0" y="0">Point</tspan></text>
+    <path id="Path_55" data-name="Path 55" d="M0,0V13" transform="translate(91.75 74)" fill="none" stroke="#38201e" stroke-width="3"/>
+  </g>
+</svg>
