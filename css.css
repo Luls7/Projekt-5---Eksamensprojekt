@@ -133,7 +133,12 @@ nav {
     /*Point slut*/
 
     /*scroll start*/
-    
+    .scroll-menu {
+        display: flex;
+        overflow:auto;
+        white-space: nowrap;
+        margin-bottom: 20px;
+    }
     /*scroll slut*/
 
     /*Anbefalet start*/
