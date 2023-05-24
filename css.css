@@ -200,11 +200,19 @@ nav {
             justify-content: center;
         }
 
+        .op {
+            padding-top: 30px;
+        }
+
         .fordele {
             height: 110px;
             width: 140px;
             border-radius: 8px;
             box-shadow: 0px 1px 6px rgba(0,0,0,0.16);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
         }
 
         #fordel1 {
