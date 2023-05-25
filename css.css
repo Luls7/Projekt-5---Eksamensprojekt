@@ -136,16 +136,31 @@ nav {
     .scroll-menu {
         display: flex;
         overflow:auto;
-        white-space: nowrap;
-        margin-bottom: 20px;
+        white-space: nowrap;  
+        margin-left: -30px;   
+        margin-right: -30px;  
+    }
+
+    .billeder {
+        margin-left: 30px;
+        border-radius: 8px;
     }
     /*scroll slut*/
 
     /*Anbefalet start*/
         .anbefaletscroll {
-            height: 155px;
-            width: 100px;
-            border: solid; /*Border fjernes når færdig*/
+            display: flex;
+            overflow:auto;
+            white-space: nowrap;  
+            margin-left: -30px;   
+            margin-right: -30px;  
+        }
+
+        .anbefaletbilleder {
+            height: 102px;
+            width: 95px; 
+            margin-left: 10px;
+            border-radius: 8px;
         }
     /*Anbefalet slut*/
 /*Home slut*/
@@ -185,11 +200,19 @@ nav {
             justify-content: center;
         }
 
+        .op {
+            padding-top: 30px;
+        }
+
         .fordele {
             height: 110px;
             width: 140px;
             border-radius: 8px;
             box-shadow: 0px 1px 6px rgba(0,0,0,0.16);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
         }
 
         #fordel1 {
