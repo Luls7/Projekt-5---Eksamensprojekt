@@ -165,9 +165,32 @@ nav {
     /*Anbefalet slut*/
 /*Home slut*/
 
+
+/*Blivmedlem start*/
+.foeds{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.dag {
+    width: 30px;
+}
+
+.maaned{
+    width: 85px;
+}
+
+.aar {
+    width: 70px;
+}
+
+/*Blivmedlem slut*/
+
 /*Profil start*/
     /*Billede start*/
-    .billedeiprofil{
+    .billedeiprofil {
         margin-left: -30px;
     }
     /*Billede slut*/
@@ -453,7 +476,27 @@ nav {
 }
 /*Produktbilleder slut*/
 
+/*Produktside start*/
 
+/*Produktside slut*/
+
+/*Vælg kategori start*/
+
+.kategoriside {
+    height: 70px;
+    background-color: #FFFFFF;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    margin-left: -30px;
+    margin-right: -30px;
+    display: flex;
+    justify-content: space-between;   
+    align-items: center; 
+    padding-left: 30px;
+
+}
+/*Vælg kategori slut*/
 
 
 
