@@ -1,12 +1,12 @@
 function getGreeting() {
     // Laver et array til alle mine Greetings
-    var text = ["Godmorgen!","Godformiddag!", "Godmiddag!","Godeftermiddag!","Godaften!","Godnat!"];
+    let text = ["Godmorgen!","Godformiddag!", "Godmiddag!","Godeftermiddag!","Godaften!","Godnat!"];
 
     // Tiden
-    var time = new Date().getHours();
+    let time = new Date().getHours();
 
     // Laver en variable til at opbevare alle
-    var greeting;
+    let greeting;
 
     // Tid mellem 06:00-09:00
     if (time >= 6 && time < 9) {
