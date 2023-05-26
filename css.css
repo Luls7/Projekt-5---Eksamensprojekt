@@ -268,6 +268,7 @@ nav {
     background-color:white;
     border-radius: 8px;
     width: 52px;
+    height: 50px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -277,6 +278,7 @@ nav {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    text-align: center;
 } 
   
 .show {display:block;}
@@ -306,6 +308,7 @@ nav {
     background-color: white;
     border-radius: 8px;
     width: 110px;
+    height: 50px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -315,6 +318,7 @@ nav {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    text-align: center;
 } 
   
 .show {display:block;}
@@ -339,17 +343,20 @@ nav {
 .aar {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
-    min-width: 180px;
+    background-color: white;
+    border-radius: 8px;
+    width: 100px;
+    height: 50px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
   
   .aar a {
-    color: black;
+    color: gray;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    text-align: center;
 } 
   
 .show {display:block;}
