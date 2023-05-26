@@ -7,6 +7,7 @@
     <title>Mine køb</title>
     <link rel="stylesheet" href="../css.css"/>
     <script src="../js/medlemskort.js" defer></script>
+    <script src="../js/kvitteringer.js" defer></script>
     <script src="https://kit.fontawesome.com/d0930a56d4.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128" rel="stylesheet">
 </head>
@@ -23,9 +24,42 @@
             <h1>Måned 2023</h1>
         </div>
         <br>
-        <div class="kvittering">
-            <h3>indhold</h3>
+        <div class="kvittering" onclick="kvittering()">
+            <h3 class="kvitteringtekst">
+                3. April
+                <br>
+                Neye Broen Esbjerg
+            </h3>
+            <div class="pilkvittering">
+                <h2>2500 kr</h2>
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
         </div>        
+    </div>
+
+    <div id="blurkvittering">
+        <div class="center">
+            <div id="krydskvittering" onclick="krydskvittering()">
+                <i id="krydsright" class="fa-solid fa-xmark fa-2xl"></i>
+            </div>
+            <div class="kort">
+                <h1>April 2023</h1>
+                <h3 class="left">
+                    Medarbejder: Emma
+                    <br>
+                    3. April
+                    <br>
+                    Neye Broen Esbjerg
+                    <br><br>
+                    Gucci pung i læder
+                    <br>
+                    Produkt nummer: 123456789
+                </h3>                   
+                <br>
+                <h2 class="right">Total 2500 kr</h2>
+                <div class="stregkode">1234 4321 3214</div>
+            </div>              
+        </div>
     </div>
 
     <div id="blur">

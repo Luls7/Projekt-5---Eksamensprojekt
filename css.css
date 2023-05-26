@@ -283,10 +283,47 @@ nav {
     /*Kvitteringer start*/
         .kvittering {
             width: 310px;
-            height: 60px;
+            height: 70px;
             background-color: #FFFFFF;
             border-radius: 8px;
             box-shadow: 0px 1px 6px rgba(0,0,0,0.16);
+            display: flex;
+            flex: wrap;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+        #blurkvittering {
+            backdrop-filter: blur(7px);
+            height: 100%;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: none;
+        }
+
+        #krydskvittering {
+            position: fixed;
+            top: 130px;
+            width: 310px;
+        }
+
+        .kvitteringtekst {
+            width: 310px;
+            padding-left: 10px;
+            display: flex;
+            flex: wrap;
+            justify-content: flex-start;
+        }
+
+        .pilkvittering {
+            width: 150px;
+            padding-right: 10px;
+            display: flex;
+            flex: wrap;
+            justify-content: space-around;
+            align-items: center;
         }
     /*Kvitteringer slut*/
 /*Mine køb slut*/
@@ -530,6 +567,7 @@ nav {
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
+    text-align: left;
 }
 
 .right {
