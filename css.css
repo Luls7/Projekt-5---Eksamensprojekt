@@ -142,12 +142,16 @@ nav {
         margin-left: -30px;   
         margin-right: -30px;  
     }
-
+    /*scroll slut*/
     .billeder {
         margin-left: 30px;
         border-radius: 8px;
     }
-    /*scroll slut*/
+
+    .medlemstilbudbillede{
+        border-radius: 8px;
+    }
+    
 
     /*Anbefalet start*/
         .anbefaletscroll {
