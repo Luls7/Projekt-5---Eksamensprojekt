@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mine køb</title>
     <link rel="stylesheet" href="../css.css"/>
+    <script src="../js/medlemskort.js" defer></script>
     <script src="https://kit.fontawesome.com/d0930a56d4.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128" rel="stylesheet">
 </head>
@@ -27,13 +28,26 @@
         </div>        
     </div>
 
+    <div id="blur">
+        <div class="center">
+            <div id="kryds" onclick="kryds()">
+                <i id="krydsright" class="fa-solid fa-xmark fa-2xl"></i>
+            </div>
+            <div class="kort">
+                <img src="../image/neyelogo.svg" class="medlemskortlogo" alt="Logo"/>
+                <h2>Anna Nielsen</h2>
+                <div class="stregkode">1234 4321 3214</div>
+                <p>Kortnummer: 123456789</p>
+            </div>              
+        </div>
+    </div>
 
     <div class="space"></div>
     <nav>
         <div class="navigation ikon">
             <a href="home.html"><div><i class="storrelse fa-solid fa-house fa-2xl"></i></div></a>
             <a href="produkter.html"><div><i class="storrelse fa-solid fa-magnifying-glass fa-2xl"></i></div></a>
-            <a href="INDSÆT LINK HER"><div><i class="storrelse fa-solid fa-address-card fa-2xl"></i></div></a>
+            <div onclick="kort()"><i class="storrelse fa-solid fa-address-card fa-2xl"></i></div>
             <a href="profil.html"><div><i class="storrelse fa-solid fa-user fa-2xl"></i></div></a>
         </div>
         <div class="navigation-tekst">
