@@ -244,17 +244,116 @@ nav {
     justify-content: flex-start;
 }
 
+.dropdag{
+    width: 30;
+    padding: 20px 15px;
+    border: none;
+    background-color:white;  
+    border-radius: 8px;
+    border-style: none;
+    font-family: Arquitecta;
+    margin-right: 10px;
+    text-align: center;
+    color: gray;
+}
+
+.dropdowndag {
+    position: relative;
+    display: inline-block;
+}
+  
 .dag {
-    width: 30px;
+    display: none;
+    position: absolute;
+    background-color:white;
+    border-radius: 8px;
+    width: 52px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+  .dag a {
+    color: gray;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+} 
+  
+.show {display:block;}
+
+
+.dropmaaned{
+    width: 80px;
+    padding: 20px 15px;
+    border: none;
+    background-color:white;  
+    border-radius: 8px;
+    border-style: none;
+    margin-right: 10px;
+    font-family: Arquitecta;
+    text-align: center;
+    color: gray;
 }
 
-.maaned{
-    width: 85px;
+.dropdownmaaned {
+    position: relative;
+    display: inline-block;
 }
+  
+.maaned {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border-radius: 8px;
+    width: 110px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+  .maaned a {
+    color: gray;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+} 
+  
+.show {display:block;}
 
-.aar {
+.dropaar{
     width: 70px;
+    padding: 20px 15px;
+    border: none;
+    background-color:white;  
+    border-radius: 8px;
+    border-style: none;
+    font-family: Arquitecta;
+    text-align: center;
+    color: gray;
 }
+
+.dropdownaar {
+    position: relative;
+    display: inline-block;
+}
+  
+.aar {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+  .aar a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+} 
+  
+.show {display:block;}
+
 
 /*Blivmedlem slut*/
 
