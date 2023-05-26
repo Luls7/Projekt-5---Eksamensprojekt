@@ -587,15 +587,36 @@ nav {
 /*Produktside start*/
 
 .produktbillede{
-    height: 70%;
-    width: 80%;
+    max-height: 400px;
+    max-width: 500px;
     border-radius: 8px;
 }
 .boks {
     display: flex;
-    height: 100px;
+    height: 200px;
+    width: 100%;
     background-color: #DBE1E2;
-    margin-top: ;
+    position: fixed;
+    bottom: 70px;
+    margin-left: -30px;
+    padding-left: 30px;
+}
+.beskrivelse{
+    padding-right: 30px;
+    margin-top:-5px;
+}
+
+.beskrivelse1{
+    padding-right: 30px;
+    margin-top: 10px;
+}
+
+.beskrivelse2{
+    margin-top: -10px;
+}
+
+.beskrivelse3{
+    margin-top: -20px;
 }
 
 
