@@ -103,6 +103,12 @@ nav {
 
     .space1{
         height:40px;
+        justify-content: right;
+        float: right;
+        font-weight:bolder;
+        font-size: 20px;
+        font-family: Arquitecta;
+        color: #38201E;
     }
 /*Navigation slut*/
 
@@ -123,7 +129,7 @@ nav {
 
     .break {
         width: 50px;
-        margin-right: 30px;
+        margin-right: 35px;
     }
 /*Header*/
 
@@ -579,6 +585,19 @@ nav {
 /*Produktbilleder slut*/
 
 /*Produktside start*/
+
+.produktbillede{
+    height: 70%;
+    width: 80%;
+    border-radius: 8px;
+}
+.boks {
+    display: flex;
+    height: 100px;
+    background-color: #DBE1E2;
+    margin-top: ;
+}
+
 
 /*Produktside slut*/
 
