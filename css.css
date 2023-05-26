@@ -251,7 +251,12 @@ nav {
 /*Profil start*/
     /*Billede start*/
     .billedeiprofil {
+        margin-right: -30px;
         margin-left: -30px;
+    }
+
+    .profilbanner{
+        width: 100%;
     }
     /*Billede slut*/
 
