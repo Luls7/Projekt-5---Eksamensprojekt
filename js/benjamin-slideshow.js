@@ -4,16 +4,18 @@ carousel();
 
 function carousel() {
   let i;
-  let x = document.getElementsByClassName("slideimages");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none"; 
+  let slideImages = document.getElementsByClassName("slideimages");
+  for (i = 0; i < slideImages.length; i++) {
+    slideImages[i].style.display = "none"; 
   }
   slideIndex++;
-  if (slideIndex > x.length) {slideIndex = 1}
-  x[slideIndex-1].style.display = "block";
+  if (slideIndex > slideImages.length) {
+    slideIndex = 1;
+  }
+  slideImages[slideIndex - 1].style.display = "block";
   
-  for (i = 0; i < x.length; i++) {
-    x[i].onclick = function() {
+  for (i = 0; i < slideImages.length; i++) {
+    slideImages[i].onclick = function() {
       if (timerId) {
         clearTimeout(timerId);
         timerId = null;
