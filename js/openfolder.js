@@ -1,10 +1,10 @@
 function openFolder(id) {
     changePil(id-1);
-    let x = document.getElementById(id);
-    if (x.style.display === "block") {
-      x.style.display = "none";
+    let pilen = document.getElementById(id);
+    if (pilen.style.display === "block") {
+      pilen.style.display = "none";
     } else {
-      x.style.display = "block";
+      pilen.style.display = "block";
     }
   }
 

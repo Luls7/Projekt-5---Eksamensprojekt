@@ -4,7 +4,6 @@ for (i = 0; i<antalhjerter; i++) {
   hjerte[i] = 0;
 }
 
-console.log(hjerte);
 function changeHjerte(nr) {
     let nrid = "hjerte" + nr
     if (hjerte[nr] === 0) {

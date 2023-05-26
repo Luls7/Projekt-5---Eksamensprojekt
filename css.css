@@ -566,24 +566,43 @@ a {
 
 
 /*Medlemskortet*/
-#kort {
+#blur {
+    backdrop-filter: blur(7px);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#kryds {
+    position: fixed;
+    top: 130px;
+    width: 310px;
+}
+
+#krydsright {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.kort {
     width: 290px;
     height: 310px;
     background-color: #DBE1E2;
     border-radius: 8px;
     filter: drop-shadow(0px 3px 6px); 
     padding: 20px; 
+    text-align: center;
+    position: fixed;
+    top: 150px;
 }
 
 .medlemskortlogo {
+    background-image: url("image/neyelogo.svg");
+    background-repeat: no-repeat;
     height: 150px;
-    width: 100%;
-    margin-top: -50px;
-    margin-bottom: -70px;
-}
-
-#korttekst {
-    padding-left: 20px;
 }
 
 .stregkode {
