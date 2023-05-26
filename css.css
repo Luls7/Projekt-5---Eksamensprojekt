@@ -586,6 +586,19 @@ nav {
 
 /*Produktside start*/
 
+.produktbillede{
+    height: 70%;
+    width: 80%;
+    border-radius: 8px;
+}
+.boks {
+    display: flex;
+    height: 100px;
+    background-color: #DBE1E2;
+    margin-top: ;
+}
+
+
 /*Produktside slut*/
 
 /*Vælg kategori start*/
