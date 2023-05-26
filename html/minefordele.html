@@ -7,6 +7,8 @@
     <title>Mine fordele</title>
     <link rel="stylesheet" href="../css.css"/>
     <script src="../js/medlemskort.js" defer></script>
+    <script src="../js/konkurrence.js" defer></script>
+    <script src="../js/takfordeltagelse.js" defer></script>
     <script src="https://kit.fontawesome.com/d0930a56d4.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128" rel="stylesheet">
 </head>
@@ -25,16 +27,52 @@
     <h3>
         Derudover tilbyder vi eksklusive rabatter til vores medlemmer.
     </h3>
-    <a href="" class="center"><button><h2 class="white">mine rabatter</h2></button></a>        
+    <a href="minerabatter.html" class="center"><button><h2 class="white">mine rabatter</h2></button></a>        
     <h3>
         Foruden dette afholdes der løbende konkurrencer som du får mulighed for at deltage i. 
     </h3>
     <div class="scroll-menu">
         <div>
-            <img class="billeder" src="../image/reklamebilleder/konkurence1.png" alt="Vind et Day Et smykkeskrin i en valgfri farve">
+            <img class="billeder" onclick="konkurrence()" src="../image/reklamebilleder/konkurence1.png" alt="Vind et Day Et smykkeskrin i en valgfri farve">
         </div>
         <div>
             <img class="billeder" src="../image/reklamebilleder/konkurrence2.jpg" alt="Tilmeld dig vores nyhedsbrev og få 200 point">
+        </div>
+    </div>
+
+    <div id="blurkonkurrence">
+        <div class="center">
+            <div id="krydskonkurrence" onclick="krydskonkurrence()">
+                <i id="krydsright" class="fa-solid fa-xmark fa-2xl"></i>
+            </div>
+            <div class="kortkonkurrence">
+                <img class="konkurrencebilleder" src="../image/reklamebilleder/konkurrence3.jpg" alt="Konkurrence"/>
+                <br><br>
+                <h3 class="left">
+                    Deltag i konkurrencen om at vinde dette smukke smykkeskrin fra DAY ET i valgfri farve. 
+                    <br><br>
+                    Vinderen trækkes fredag den 30. august 2023.
+                    <br><br>
+                    Du deltager ved klik nednefor hvorefter vi sender dig en notifikation når vinderen er kåret.
+                </h3>
+                <br>
+                <button onclick="deltagelse()"><h2 onclick="deltagkonkurrence()" class="white">Deltag</h2></button>
+            </div>              
+        </div>
+    </div>
+
+    <div id="blurdeltagelse">
+        <div class="center">
+            <div id="krydsdeltagelse" onclick="krydsdeltagelse()">
+                <i id="krydsright" class="fa-solid fa-xmark fa-2xl"></i>
+            </div>
+            <div class="kortdeltagelse">
+                <h3 class="center">
+                    Din deltagelse er registreret. 
+                    <br>
+                    Vi krydser fingre.
+                </h3>
+            </div>              
         </div>
     </div>
 

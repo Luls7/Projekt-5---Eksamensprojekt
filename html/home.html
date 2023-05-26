@@ -7,6 +7,8 @@
     <title>Hjem</title>
     <script src="../js/benjamin.js" defer></script>
     <script src="../js/medlemskort.js" defer></script>
+    <script src="../js/konkurrence.js" defer></script>
+    <script src="../js/takfordeltagelse.js" defer></script>
     <link rel="stylesheet" href="../css.css"/>
     <script src="https://kit.fontawesome.com/d0930a56d4.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128" rel="stylesheet">
@@ -56,7 +58,7 @@
     <br>    
     <h1>Konkurrencer</h1>
     <div class="scroll-menu">
-        <div>
+        <div onclick="konkurrence()">
             <img class="billeder" src="../image/reklamebilleder/konkurence1.png" alt="Vind et Day Et smykkeskrin i en valgfri farve">
         </div>
         <div>
@@ -77,6 +79,45 @@
         </div>
     </div>
     <br>    
+
+    <div id="blurkonkurrence">
+        <div class="center">
+            <div id="krydskonkurrence" onclick="krydskonkurrence()">
+                <i id="krydsright" class="fa-solid fa-xmark fa-2xl"></i>
+            </div>
+            <div class="kortkonkurrence">
+                <img class="konkurrencebilleder" src="../image/reklamebilleder/konkurrence3.jpg" alt="Konkurrence"/>
+                <br><br>
+                <h3 class="left">
+                    Deltag i konkurrencen om at vinde dette smukke smykkeskrin fra DAY ET i valgfri farve. 
+                    <br><br>
+                    Vinderen trækkes fredag den 30. august 2023.
+                    <br><br>
+                    Du deltager ved klik nednefor hvorefter vi sender dig en notifikation når vinderen er kåret.
+                </h3>
+                <br>
+                <button onclick="deltagelse()"><h2 onclick="deltagkonkurrence()" class="white">Deltag</h2></button>
+            </div>              
+        </div>
+    </div>
+
+    <div id="blurdeltagelse">
+        <div class="center">
+            <div id="krydsdeltagelse" onclick="krydsdeltagelse()">
+                <i id="krydsright" class="fa-solid fa-xmark fa-2xl"></i>
+            </div>
+            <div class="kortdeltagelse">
+                <h3 class="center">
+                    Din deltagelse er registreret. 
+                    <br>
+                    Vi krydser fingre.
+                </h3>
+            </div>              
+        </div>
+    </div>
+
+
+
     <div id="blur">
         <div class="center">
             <div id="kryds" onclick="kryds()">
