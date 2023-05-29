@@ -726,13 +726,6 @@ a {
 /*Produktbilleder slut*/
 
 /*Produktside start*/
-    .produktbillede{
-        margin-top: -60px;
-        max-height: 400px;
-        max-width: auto;
-        border-radius: 8px;
-    }
-
     .boks {
         display: flex;
         flex-wrap: wrap;
