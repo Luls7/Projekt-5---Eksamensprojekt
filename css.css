@@ -727,20 +727,25 @@ a {
 
 /*Produktside start*/
     .produktbillede{
+        margin-top: -60px;
         max-height: 400px;
-        max-width: 500px;
+        max-width: auto;
         border-radius: 8px;
     }
 
     .boks {
         display: flex;
+        flex-wrap: wrap;
         height: 200px;
         width: 100%;
         background-color: #DBE1E2;
-        position: fixed;
         bottom: 70px;
         margin-left: -30px;
-        padding-left: 30px;
+        padding: 30px;
+    }
+
+    .plads {
+        height: 40px;
     }
 
     .beskrivelse{
@@ -912,3 +917,36 @@ a {
         transform: rotate(45deg);
     }
 /*Flugeben tilmeldning slut*/
+
+
+/*Tablet start*/
+@media only screen and (min-width: 600px){
+    body{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    nav {
+        margin-left: -20%;
+    }
+
+    .hvilkenside {
+        margin-left: -20%; 
+    }
+
+    .medlemstilbudbillede{
+        height: 300px;
+    }
+
+    .h1{
+        margin-left: 20%;
+    }
+
+    .produktsiden {
+        margin-left: -20%;
+        margin-right: -20%;
+    }
+
+}
+
+/*Tablet slut*/
